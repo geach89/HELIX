@@ -57,5 +57,5 @@ Each program takes between 5 and 10 minutes to run.
 
 The scripts should produce the data in 'Figure_data.xslx' when run on the full data set, as follows:
 - active.py generates the data in the "Figure 3" sheet. The first 9 columns of data are produced when time_period='Jan-Feb' is selected, the other 8 columns are produced when time_period='Feb-Mar' is used.
-- passive.py generates the data in the "Figure 4" sheets. The data in "Figure 4 (left)" is produced when location='OP' is selected, and the data in "Figure 4 (right) is produced when location='conj' is selected.
+- passive.py generates the data in the "Figure 4" sheets. The data in "Figure 4 (left)" is produced when location='OP' is selected, and the data in "Figure 4 (right)" is produced when location='conj' is selected.
 - active_photon_profile.py generates the data in the Figure 6 sheets. No options need be selected.
