@@ -49,7 +49,7 @@ Given a functioning Python environment and the required packages, no installatio
 
 # Demo
 
-Given the simplicity of the analysis being performed here, and the relatively small size of the dataset, no dedicated demo dataset has been created - isntead, the code can be run on the full dataset, to produce the results presented in the associated manuscript. The data is available [here](https://figshare.com/s/b68943b88521b1ce696d).
+Given the simplicity of the analysis being performed here, and the relatively small size of the dataset, no dedicated demo dataset has been created - instead, the code can be run on the full dataset, to produce the results presented in the associated manuscript. The data is available [here](https://figshare.com/s/b68943b88521b1ce696d) and the resulting data is provided for comparison in this repository (Figure_Data.xlsx).
 
 Each program takes between 5 and 10 minutes to run.
 
