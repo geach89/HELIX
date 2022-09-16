@@ -116,7 +116,7 @@ def get_He_profiles(data):
     n_R_over_z_R_squared = np.mean(n_dens[72:101]/alt[72:101]**2) # m^-5 
     sig_R = 3.0 * 10**-32 # m^2
     delta_z_R = 2000 # m
-    sig_He = 2.5 * 10**-16 # m^2
+    sig_He = 2.78 * 10**-16 # m^2
     
     conversion_factor = (rayleigh * sig_He * bin_size / n_R_over_z_R_squared /
                          z_squared / sig_R / delta_z_R * 10**3) # counts cm^3
