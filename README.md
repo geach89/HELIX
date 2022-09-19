@@ -21,7 +21,7 @@ This repo contains python code written to perform the data analysis associated w
 - active.py
 - passive.py
 - active_photon_profile.py
-- Figure_data.xlsx
+- Supplementary_Data.xlsx
 
 # System Requirements
 
@@ -45,7 +45,7 @@ The code relies on the standard suite of Python packages, with the addition of n
 
 # Installation instructions
 
-Given a functioning Python environment and the required packages, no installation is required. The necesary data files must simply be downloaded, and the corresponding path must be designated in each program (on line 9 of each program). The liadr data is available [here](https://figshare.com/s/b68943b88521b1ce696d), and the MSIS2.0 profile that is used for calibration of the return signal is contained within this repo (msis20output.txt).
+Given a functioning Python environment and the required packages, no installation is required. The necesary data files must simply be downloaded, and the corresponding path must be designated in each program (on line 9 of each program). The lidar data is available [here](https://figshare.com/s/b68943b88521b1ce696d), and the MSIS2.0 profile that is used for calibration of the return signal is contained within this repo (msis20output.txt).
 
 # Demo
 
@@ -56,6 +56,6 @@ Each program takes between 5 and 10 minutes to run.
 # Results
 
 The scripts should produce the data in 'Figure_data.xslx' when run on the full data set, as follows:
-- active.py generates the data in the "Figure 3" sheet. The first 9 columns of data are produced when time_period='Jan-Feb' is selected, the other 8 columns are produced when time_period='Feb-Mar' is used.
-- passive.py generates the data in the "Figure 4" sheets. The data in "Figure 4 (left)" is produced when location='OP' is selected, and the data in "Figure 4 (right)" is produced when location='conj' is selected.
+- active.py generates the data in the "Figure 2" sheet. The first 9 columns of data are produced when time_period='Jan-Feb' is selected, the other 8 columns are produced when time_period='Feb-Mar' is used.
+- passive.py generates the data in the "Figure 3" sheets. The data in "Figure 3 (a)" is produced when location='OP' is selected, and the data in "Figure 3 (b)" is produced when location='conj' is selected.
 - active_photon_profile.py generates the data in the Figure 6 sheets. No options need be selected.
